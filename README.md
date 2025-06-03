@@ -16,12 +16,13 @@ Resume Tweaker is a lightweight Android app that generates professional **Resume
 - **No Ads**: Completely ad-free experience  
 
 ## 📸 Screenshots  
-![WhatsApp Image 2025-06-03 at 3 54 16 PM](https://github.com/user-attachments/assets/fb558c72-38d8-4acf-a038-2ba3fc9053a8)
-![WhatsApp Image 2025-06-03 at 3 54 16 PM(1)](https://github.com/user-attachments/assets/37d3d00c-a6f5-444c-94a8-66e4890f4716)
-![WhatsApp Image 2025-06-03 at 3 54 16 PM(2)](https://github.com/user-attachments/assets/ffe8f692-f854-4225-813a-cf16f6b7f9c0)
-![WhatsApp Image 2025-06-03 at 3 54 17 PM](https://github.com/user-attachments/assets/9c9a4615-c00a-4544-8c23-5b49b66c2bf2)
-![WhatsApp Image 2025-06-03 at 3 54 17 PM(1)](https://github.com/user-attachments/assets/3746ee08-4690-4f9b-a429-4f160f28c193)
-![WhatsApp Image 2025-06-03 at 3 54 17 PM(2)](https://github.com/user-attachments/assets/2ddf9cc7-3bdc-4302-9b61-f178b0702714)
+
+![WhatsApp Image 2025-06-03 at 3 54 16 PM](https://github.com/user-attachments/assets/13b1814e-54bb-489c-a8f2-1480b0c2c760)
+![WhatsApp Image 2025-06-03 at 3 54 16 PM(1)](https://github.com/user-attachments/assets/1c499066-dea9-4791-9f66-8fecafbefd3f)
+![WhatsApp Image 2025-06-03 at 3 54 16 PM(2)](https://github.com/user-attachments/assets/e790b25d-a164-465a-bf5f-3aa4f641e949)
+![WhatsApp Image 2025-06-03 at 3 54 17 PM](https://github.com/user-attachments/assets/65edbde8-63c2-4121-98c6-8334c0af5934)
+![WhatsApp Image 2025-06-03 at 3 54 17 PM(1)](https://github.com/user-attachments/assets/7dbe4033-8dfe-4540-b637-a58ab0ad9f00)
+![WhatsApp Image 2025-06-03 at 3 54 17 PM(2)](https://github.com/user-attachments/assets/e7720f5a-25a0-4727-a564-67aa59e9cbae)
 
 
 ## ⚙️ Setup & Usage  
