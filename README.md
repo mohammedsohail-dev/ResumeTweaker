@@ -15,16 +15,6 @@ Resume Tweaker is a lightweight Android app that generates professional **Resume
 - **PDF Export**: Save documents locally using iText7  
 - **No Ads**: Completely ad-free experience  
 
-## 📸 Screenshots  
-
-![WhatsApp Image 2025-06-03 at 3 54 16 PM](https://github.com/user-attachments/assets/13b1814e-54bb-489c-a8f2-1480b0c2c760)
-![WhatsApp Image 2025-06-03 at 3 54 16 PM(1)](https://github.com/user-attachments/assets/1c499066-dea9-4791-9f66-8fecafbefd3f)
-![WhatsApp Image 2025-06-03 at 3 54 16 PM(2)](https://github.com/user-attachments/assets/e790b25d-a164-465a-bf5f-3aa4f641e949)
-![WhatsApp Image 2025-06-03 at 3 54 17 PM](https://github.com/user-attachments/assets/65edbde8-63c2-4121-98c6-8334c0af5934)
-![WhatsApp Image 2025-06-03 at 3 54 17 PM(1)](https://github.com/user-attachments/assets/7dbe4033-8dfe-4540-b637-a58ab0ad9f00)
-![WhatsApp Image 2025-06-03 at 3 54 17 PM(2)](https://github.com/user-attachments/assets/e7720f5a-25a0-4727-a564-67aa59e9cbae)
-
-
 ## ⚙️ Setup & Usage  
 
 1. **Get OpenAI API Key**:
