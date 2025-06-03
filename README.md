@@ -13,7 +13,17 @@ Resume Tweaker is a lightweight Android app that generates professional **Resume
 - **Instant Cover Letters**: Professionally generated in seconds  
 - **100% Offline Processing**: All AI calls go directly to OpenAI from your device  
 - **PDF Export**: Save documents locally using iText7  
-- **No Ads**: Completely ad-free experience  
+- **No Ads**: Completely ad-free experience
+
+## Screenshots
+
+![Main](https://github.com/user-attachments/assets/b11546c6-78b4-41d1-b639-c331ad29c7cc)
+![Results](https://github.com/user-attachments/assets/74191443-f44d-4eeb-a7fb-2954bcfd2858)
+![Job Description](https://github.com/user-attachments/assets/b9ec6b05-c35e-4d82-b81d-b45822556341)
+![Home](https://github.com/user-attachments/assets/d3a9fbf2-5013-421f-ac75-9ea1319d6f47)
+![Form](https://github.com/user-attachments/assets/e9b429e7-4ca2-4d9f-b5e0-ffc76f77095c)
+![Profiles](https://github.com/user-attachments/assets/5520113e-b644-4155-aa39-2883a31a5d31)
+
 
 ## ⚙️ Setup & Usage  
 
