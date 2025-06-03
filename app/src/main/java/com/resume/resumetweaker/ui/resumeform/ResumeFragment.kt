@@ -11,7 +11,6 @@ import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.core.content.edit
-import androidx.navigation.findNavController
 import com.resume.resumetweaker.R
 import com.resume.resumetweaker.databinding.FragmentResumeBuilderBinding
 import org.json.JSONArray
@@ -45,8 +44,6 @@ class ResumeFragment : Fragment() {
                     val name = input.text.toString().trim()
                     if (name.isNotEmpty()) {
                         saveResumeToSharedPreferences(name, json)
-                        val navController = requireActivity().findNavController(R.id.nav_host_fragment_content_main)
-                        navController.navigate(R.id.nav_jobDescription)
                     } else {
                         Toast.makeText(requireContext(), "No name provided, not saving", Toast.LENGTH_SHORT ).show()
                     }

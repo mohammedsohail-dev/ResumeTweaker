@@ -46,7 +46,6 @@ class OpenAIFragment : Fragment() {
                 sharedpref.edit { putString("openai_token", token) }
                 Toast.makeText(requireContext(), "Token set successfully", Toast.LENGTH_SHORT).show()
 
-                findNavController().navigate(R.id.nav_resumeForm)
             } else {
                 Toast.makeText(requireContext(), "Please enter a valid token", Toast.LENGTH_SHORT).show()
             }

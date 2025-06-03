@@ -350,7 +350,6 @@ If both English and another language appear in the JD, prioritize the **non-Engl
             line-height: 1.0;
         }
         .sub-section p {
-            margin-top:0px;
             margin-bottom:0px;
         }
         .label {
@@ -519,6 +518,10 @@ Instructions:
 5. Bold keywords from the job description for ATS optimization.
 6. Include relevant skills from the JD even if not in the profile, but justify them with transferable experience.
 7. Maintain full consistency in tone, language, and format across resume and cover letter.
+8. Do not put extra stuff like backticks or anything, the template is strict
+9. If the end date is null it means its present date.
+10. Never ever omit education or experience
+
 """.trimIndent()
     }
 
