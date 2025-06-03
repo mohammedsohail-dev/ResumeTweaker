@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:padding="12dp">
+
+    <!-- Language Name -->
+    <EditText
+        android:id="@+id/editTextLanguageName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_language_name"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textCapWords" />
+
+    <!-- Proficiency Level -->
+    <EditText
+        android:id="@+id/editTextLanguageProficiency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_language_proficiency"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textCapWords"
+        android:layout_marginTop="8dp" />
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editTextSkill"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hint_enter_skill"
+    android:layout_marginTop="8dp"
+    android:padding="12dp"
+    android:background="@android:drawable/edit_text"
+    android:inputType="textCapWords"
+    android:autofillHints="username" />
+

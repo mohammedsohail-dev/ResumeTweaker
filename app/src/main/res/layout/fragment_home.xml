@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- App Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resume Tweaker"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- App Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resume Tweaker is an ad-free application designed to generate professional Resumes and Cover Letters using the power of AI. It leverages OpenAI\u2019s models to provide personalized and ATS-friendly documents tailored to your job description."
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Why Token Needed Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\uD83D\uDD10 Why You Need an OpenAI Web Token"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To function properly, Resume Tweaker requires an OpenAI API Key (Web Token). This is mandatory as all resume generation requests are processed through OpenAI\u2019s servers."
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Cost Info Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\uD83D\uDCB8 Cost Info"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u26A0\uFE0F Important:\nYou must have a valid OpenAI account with a minimum $5 payment added.\nThis is charged by OpenAI on a per-request basis — not by Resume Tweaker."
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- How to Get API Key Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\uD83D\uDCCC How to Get Your OpenAI API Key"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Follow these steps to get started!\n\n1. Sign Up / Log In to OpenAI\'s platform.\n2. Go to the API Keys page.\n3. Click \u201CCreate new secret key\u201D.\n4. Copy the key and paste it into Resume Tweaker when prompted.\n\uD83D\uDD12 Keep your API key safe! Do not share it publicly."
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Step 2 Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\uD83D\uDCDD Step 2: Fill Out the Resume Form"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Once your OpenAI API key is set up:\n\n1. Open the \u2630 Hamburger Menu (usually in the top-left corner).\n2. Select \u201CResume Form\u201D.\n3. Fill in your personal and professional details, including:\n   \u25E6 Name\n   \u25E6 Contact Information\n   \u25E6 Education\n   \u25E6 Skills\n   \u25E6 Experience\n   \u25E6 Certifications (if any)\n\uD83D\uDDC2\uFE0F Make sure everything is accurate — this info will be used to tailor your resume and cover letter!"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Step 3 Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\uD83D\uDCBC Step 3: Provide the Job Description"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Go back to the \u2630 Hamburger Menu.\n2. Select \u201CJob Description\u201D.\n3. Choose the profile you filled earlier.\n4. Enter:\n   \u25E6 Role Name (e.g., Software Engineer)\n   \u25E6 Company Name\n   \u25E6 Full Job Description (copy-paste from the job post)\n\uD83E\uDDE0 The app will analyze the job description and generate a resume and cover letter that aligns perfectly with the requirements."
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

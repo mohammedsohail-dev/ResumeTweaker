@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:padding="12dp">
+
+    <!-- Certification Name -->
+    <EditText
+        android:id="@+id/editTextCertificationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_certification_name"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textCapWords" />
+
+    <!-- Issuing Organization -->
+    <EditText
+        android:id="@+id/editTextCertificationOrg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_issuing_organization"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textCapWords"
+        android:layout_marginTop="8dp" />
+
+    <!-- Dates -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/editTextStartDateCert"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_start_date"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/editTextEndDateCert"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_expiry_date"
+            android:inputType="date"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Description -->
+    <EditText
+        android:id="@+id/editTextCertSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_certification_details"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

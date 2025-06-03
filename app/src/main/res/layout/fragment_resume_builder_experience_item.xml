@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:padding="12dp">
+
+    <!-- Job Title -->
+    <EditText
+        android:id="@+id/editTextJobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_job_title"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textCapWords" />
+
+    <!-- Company Name -->
+    <EditText
+        android:id="@+id/editTextCompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_company_name"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textCapWords"
+        android:layout_marginTop="8dp" />
+
+    <!-- Dates -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/editTextStartDateExperience"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_start_date"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/editTextEndDateExperience"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_end_date"
+            android:inputType="date"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Responsibilities -->
+    <EditText
+        android:id="@+id/editTextResponsibilities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_responsibilities_summary"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

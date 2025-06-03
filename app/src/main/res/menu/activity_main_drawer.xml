@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_openaiSetup"
+            android:icon="@drawable/open_ai"
+            android:title="@string/menu_openai" />
+        <item
+            android:id="@+id/nav_resumeForm"
+            android:icon="@drawable/account_details"
+            android:title="@string/menu_resume" />
+
+        <item
+            android:id="@+id/nav_profiles"
+            android:icon="@drawable/file_document_multiple"
+            android:title="@string/menu_profiles" />
+        <item
+            android:id="@+id/nav_jobDescription"
+            android:icon="@drawable/briefcase_account"
+            android:title="@string/menu_jobDescription" />
+
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/text_box_multiple"
+            android:title="@string/menu_result" />
+
+    </group>
+</menu>

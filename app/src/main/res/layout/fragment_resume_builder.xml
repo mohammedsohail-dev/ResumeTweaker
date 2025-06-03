@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resume_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/resume_name_hint"
+            android:inputType="textPersonName" />
+
+        <!-- Phone Number -->
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/resume_phone_hint"
+            android:inputType="phone" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/resume_email_hint"
+            android:inputType="textEmailAddress" />
+
+        <!-- LinkedIn -->
+        <EditText
+            android:id="@+id/editTextLinkedIn"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/resume_linkedin_hint"
+            android:inputType="textUri" />
+
+        <!-- Portfolio -->
+        <EditText
+            android:id="@+id/editTextPortfolio"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/resume_portfolio_hint"
+            android:inputType="textUri" />
+
+        <!-- Languages -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resume_languages" />
+
+        <LinearLayout
+            android:id="@+id/languageContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnAddLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_language" />
+
+            <Button
+                android:id="@+id/btnDeleteLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_language" />
+        </LinearLayout>
+
+        <!-- Skills -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resume_skills" />
+
+        <LinearLayout
+            android:id="@+id/skillsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnAddSkill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_skill" />
+
+            <Button
+                android:id="@+id/btnDeleteSkill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_skill" />
+        </LinearLayout>
+
+        <!-- Professional Summary -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/professional_summary" />
+
+        <EditText
+            android:id="@+id/editTextSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/summary_hint"
+            android:inputType="textMultiLine"
+            android:minLines="3" />
+
+        <!-- CERTIFICATIONS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/certification" />
+
+        <LinearLayout
+            android:id="@+id/certificationContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnAddCertification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_certification" />
+
+            <Button
+                android:id="@+id/btnDeleteCertification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_certification" />
+        </LinearLayout>
+
+
+
+        <!-- Education -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/education" />
+
+        <LinearLayout
+            android:id="@+id/educationContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnAddEducation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_education" />
+
+            <Button
+                android:id="@+id/btnDeleteEducation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_education" />
+        </LinearLayout>
+
+        <!-- Experience -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/experience" />
+
+        <LinearLayout
+            android:id="@+id/experienceContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnAddExperience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_experience" />
+
+            <Button
+                android:id="@+id/btnDeleteExperience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_experience" />
+        </LinearLayout>
+
+        <!-- Volunteer Work -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/volunteer" />
+
+        <LinearLayout
+            android:id="@+id/volunteerContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnAddVolunteer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/add_volunteer" />
+
+            <Button
+                android:id="@+id/btnDeleteVolunteer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_volunteer" />
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_resume"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp" />
+    </LinearLayout>
+</ScrollView>

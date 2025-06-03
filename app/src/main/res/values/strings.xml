@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Resume Tweaker</string>
+
+    <string name="resume_title">Resume Builder</string>
+    <string name="resume_name_hint">Full Name</string>
+    <string name="resume_phone_hint">Phone Number</string>
+    <string name="resume_email_hint">Email Address</string>
+    <string name="resume_linkedin_hint">LinkedIn Profile URL</string>
+    <string name="resume_portfolio_hint">Portfolio Website</string>
+    <string name="resume_languages">Languages</string>
+    <string name="add_language">+ Add Language</string>
+    <string name="delete_language">- Delete Language</string>
+    <string name="resume_skills">Skills</string>
+    <string name="add_skill">+ Add Skill</string>
+    <string name="delete_skill">- Delete Skill</string>
+    <string name="professional_summary">Professional Summary</string>
+    <string name="summary_hint">Brief professional summary</string>
+    <string name="resume_certifications">Certifications</string>
+    <string name="add_certification">+ Add Certification</string>
+    <string name="delete_certification">- Delete Certification</string>
+    <string name="resume_education">Education</string>
+    <string name="add_education">+ Add Education</string>
+    <string name="delete_education">- Delete Education</string>
+    <string name="resume_experience">Experience</string>
+    <string name="add_experience">+ Add Experience</string>
+    <string name="delete_experience">- Delete Experience</string>
+    <string name="resume_volunteer">Volunteer Work</string>
+    <string name="add_volunteer">+ Add Volunteer Work</string>
+    <string name="delete_volunteer">- Delete Volunteer Work</string>
+    <string name="submit_resume">Submit Resume</string>
+
+    <!-- Navigation menu labels -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Resume Tweaker</string>
+    <string name="nav_header_subtitle">make your job aligned resume in minutes</string>
+    <string name="nav_header_desc">Resume Tweaker</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu items -->
+    <string name="menu_home">Home</string>
+    <string name="menu_openai">OpenAI setup</string>
+    <string name="menu_resume">Resume Form</string>
+    <string name="menu_profiles">Profiles</string>
+    <string name="menu_jobDescription">Job Description</string>
+    <string name="menu_result">Resumes and Cover Letters</string>
+    <string name="menu_history">Previously Generated Resumes</string>
+
+    <!-- OpenAI -->
+    <string name="openai_header">Enter your OpenAI Web Token</string>
+    <string name="openai_token_hint">sk-xxxxxxxxxxxxxxx</string>
+    <string name="openai_button">Save Token</string>
+
+    <!--Certification -->
+    <string name="certification"> Certifications </string>
+    <string name="hint_certification_name">Certification Name</string>
+    <string name="hint_issuing_organization">Issuing Organization</string>
+    <string name="hint_start_date">Start Date</string>
+    <string name="hint_expiry_date">Expiry Date</string>
+    <string name="hint_certification_details">Certification Details (optional)</string>
+
+
+    <!-- Education -->
+    <string name="education"> Education </string>
+    <string name="hint_institution_name">Institution Name</string>
+    <string name="hint_degree_major">Degree or Major</string>
+    <string name="education_hint_start_date">Start Date</string>
+    <string name="education_hint_end_date">End Date</string>
+
+    <!-- Experience -->
+    <string name="experience"> Experience </string>
+    <string name="hint_job_title">Job Title</string>
+    <string name="hint_company_name">Company Name</string>
+    <string name="hint_end_date">End Date</string>
+    <string name="hint_responsibilities_summary">Responsibilities / Summary</string>
+
+    <!-- languages -->
+    <string name="hint_language_name">Language</string>
+    <string name="hint_language_proficiency">Proficiency (e.g. Native, Fluent, Intermediate)</string>
+
+    <!-- Skill -->
+    <string name="hint_enter_skill">Enter skill</string>
+
+    <!-- Volunteering -->
+    <string name="volunteer"> Volunteer Work </string>
+    <string name="hint_volunteering_organization">Volunteering Organization</string>
+    <string name="hint_project_summary">Project Summary</string>
+
+
+</resources>

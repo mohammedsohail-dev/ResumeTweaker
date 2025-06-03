@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.resume.resumetweaker.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_openaiSetup"
+        android:name="com.resume.resumetweaker.ui.openai.OpenAIFragment"
+        android:label="@string/menu_openai"
+        tools:layout="@layout/fragment_openai" />
+
+    <fragment
+        android:id="@+id/nav_resumeForm"
+        android:name="com.resume.resumetweaker.ui.resumeform.ResumeFragment"
+        android:label="@string/menu_resume"
+        tools:layout="@layout/fragment_resume_builder" />
+
+    <fragment
+        android:id="@+id/nav_profiles"
+        android:name="com.resume.resumetweaker.ui.profiles.ProfilesFragment"
+        android:label="@string/menu_profiles"
+        tools:layout="@layout/fragment_profiles" />
+
+    <fragment
+        android:id="@+id/nav_jobDescription"
+        android:name="com.resume.resumetweaker.ui.jobdescription.JobDescriptionFragment"
+        android:label="@string/menu_jobDescription"
+        tools:layout="@layout/fragment_jobdescription" />
+
+    <fragment
+        android:id="@+id/nav_result"
+        android:name="com.resume.resumetweaker.ui.result.ResultFragment"
+        android:label="@string/menu_result"
+        tools:layout="@layout/fragment_result" />
+
+</navigation>

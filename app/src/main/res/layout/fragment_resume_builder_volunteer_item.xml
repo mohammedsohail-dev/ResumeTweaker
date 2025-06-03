@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:padding="12dp">
+
+    <!-- Organization Name -->
+    <EditText
+        android:id="@+id/editTextVolunteerOrg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_volunteering_organization"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textCapWords"
+        android:autofillHints="username" />
+
+    <!-- Dates -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/editTextStartDateVolunteer"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_start_date"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/editTextEndDateVolunteer"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_end_date"
+            android:inputType="date"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Project Summary -->
+    <EditText
+        android:id="@+id/editTextSummaryVolunteer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_project_summary"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#BDBDBD"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>
