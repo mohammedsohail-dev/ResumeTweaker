@@ -519,8 +519,10 @@ Instructions:
 6. Include relevant skills from the JD even if not in the profile, but justify them with transferable experience.
 7. Maintain full consistency in tone, language, and format across resume and cover letter.
 8. Do not put extra stuff like backticks or anything, the template is strict
-9. If the end date is null it means its present date.
-10. Never ever omit education or experience
+9. If the end date is null it means its present date. but for certifications null means no expiry date.
+10. Never ever omit education or experience.
+11.take key words from JD and try to use them as much as possible, also bold them this will make the resume pass through ATS check.
+12. Try to Use Action word + Task + Result and try to use numbers as much as possible but do not forge numbers.
 
 """.trimIndent()
     }
