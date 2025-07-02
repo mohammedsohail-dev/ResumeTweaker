@@ -7,6 +7,9 @@
 
 Resume Tweaker is a lightweight Android app that generates professional **Resumes** and **Cover Letters** using OpenAI's API. No backend servers, no Firebase - just a clean APK that respects your privacy!
 
+![ResumeTweaker](https://github.com/user-attachments/assets/58412ab0-9138-46bf-b194-9c4910fc7881)
+
+
 ## ✨ Features  
 
 - **AI-Optimized Resumes**: Tailored for specific job descriptions (ATS-friendly)  
